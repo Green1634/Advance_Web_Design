@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>COVID-19</title>
+</head>
+
+
+<body>
+  <div class="section"></div>
+  <main>
+      
+      <form class="container" name="my_form" onsubmit="return validation()" method="post" id="form"> 
+  
+        <div class="row"> 
+        <div class="col s12 m6 l6">
+            
+                <img src="http://localhost:3000/images/covid3.jpg" width="95%">
+            
+        </div>
+          <div class="sub">
+              <div class=" container s12 m12 l12 blue-text" id="head"> <h4>COVIDConnect </h4> 
+              <p id="head1" class="black-text">Share your knowledge and experiences of the deadly disease with the world...</p> </div>
+              <div id="subhead" class="container center-align"><p> Dont Have an account? <span><a href="registration.html">Click Here...</a></span> </p>  </div> 
+              <div class="input-field col s12 l6 container">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input name="first_name" type="text" size="25">
+                  <label for="first_name">Username</label>
+                  <div id="msg" class="red-text"> </div>
+                  
+                  <div class="row">
+                      <div class="input-field col s11 l12">
+                          <i class="material-icons prefix">lock</i>
+                      <input id="E-mail" type="password" size="60" name="password">
+                      <label for="E-mail">Password</label>
+                      <div id="msg2" class="red-text"> </div>
+                      </div>
+                      
+                  </div>
+                  
+                  <div class="container center-align"><button class="waves-effect waves-light btn blue" onsubmit="return click();">SIGN IN</button></div>
+                  <div class="container center-align"><a href="registration.html">Forgot Password?</a></div>
+              </div>
+            </div>
+        
+    </div>
+  </form>
+
+    <div class="section"></div>
+    <div class="section"></div>
+  </main>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"> </script>
+  </body>
+</html>

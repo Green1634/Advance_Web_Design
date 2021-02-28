@@ -1,0 +1,50 @@
+body {
+    background-color: #b0bec5;
+
+  }   
+  
+  form {
+    padding-top: 0.5rem;
+    background-color: white;
+    border-radius: 1em;
+    border-color: white;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 2em;
+  }
+  
+  #head {
+        font-weight: 500;
+        font-size: larger ;
+        font-stretch: expanded;
+        font-family: 'Grandstander', cursive;
+        margin-bottom: em;
+        margin-top: 2em;
+  }
+  
+  #head1 {
+    font-weight: 50;
+        font-size: xx-small ;
+        /* font-stretch: expanded; */
+        font-family: 'Grandstander', cursive;
+        text-align: justify;
+        padding-right: 4em;
+        
+  }
+  
+  #subhead {
+    margin-top: 3em;
+  }
+  
+  .subhead {
+    background-color: 
+  }
+
+  #formhead {
+    margin-top: 2em;
+  }
+
+  #reg {
+    padding-top: 3em;
+  }
